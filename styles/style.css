@@ -412,3 +412,31 @@
 .dialog::backdrop {
   background-color: rgb(0 0 0 / 75%);
 }
+
+.filter-gray {
+  filter: grayscale(1);
+}
+
+.filter-saturate {
+  filter: saturate(200%);
+}
+
+.filter-bright {
+  filter: brightness(150%);
+}
+
+.filter-multiple {
+  filter: brightness(120%) saturate(150%);
+}
+
+.filter-invert {
+  filter: invert(0.5);
+}
+
+.filter-blur {
+  filter: blur(2px);
+}
+
+.filter-sepia {
+  filter: sepia(70%);
+}
