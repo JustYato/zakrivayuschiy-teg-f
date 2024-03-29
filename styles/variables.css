@@ -1,1 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable";
+  --main-font-weight-bold: 700;
+  --main-font-weight: 400;
+  --additional-font: "PressStart2P";
+  --text-color: #000;
+  --button-text-color: #fff;
+  --border-color: #000;
+  --background-color: #fff;
+  --background-image: url(../images/background-light.png);
+  --theme-hover-color: rgb(0 0 0 / 60%);
+  --heart-contour-color: #000;
+  --heart-cross-color: #fff;
+  --heart-cross-color-transperent: rgb(0 0 0 / 0%);
+  --heart-main-color: #ff0000;
+  --heart-main-color-transperent: rgb(0 0 0 / 0%);
+  --heart-main-color-hover: #000;
+  --heart-cross-color-hover: #000;
+  --heart-main-color-active: #ff0000;
+  --heart-cross-color-active: #ff0000;
+}

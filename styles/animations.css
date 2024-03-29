@@ -12,3 +12,47 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+@keyframes selection {
+  0% {
+    margin-left: -24px;
+  }
+
+  50% {
+    margin-left: -20px;
+  }
+
+  100% {
+    margin-left: -24px;
+  }
+}
+
+@keyframes cross-animation {
+  100% {
+    fill: var(--heart-main-color);
+  }
+}
+
+@keyframes main-animation {
+  100% {
+    fill: var(--heart-main-color);
+  }
+}
+
+@keyframes contour-animation {
+  100% {
+    fill: var(--heart-main-color);
+  }
+}
+
+@keyframes particles-animation {
+  100% {
+    fill: var(--heart-main-color);
+  }
+}
+
+@keyframes heart-transition {
+  100% {
+    transform: scale(1.5);
+    transform-origin: center;
+  }
+}

@@ -4,3 +4,72 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-light {
+  --main-font: "Inter-Variable";
+  --main-font-weight-bold: 700;
+  --main-font-weight: 400;
+  --additional-font: "PressStart2P";
+  --text-color: #000;
+  --button-text-color: #fff;
+  --border-color: #000;
+  --background-color: #fff;
+  --background-image: url(../images/background-light.png);
+  --theme-hover-color: rgb(0 0 0 / 60%);
+  --heart-contour-color: #000;
+  --heart-cross-color: #fff;
+  --heart-cross-color-transperent: rgb(0 0 0 / 0%);
+  --heart-main-color: #ff0000;
+  --heart-main-color-transperent: rgb(0 0 0 / 0%);
+  --heart-main-color-hover: #000;
+  --heart-cross-color-hover: #000;
+  --heart-main-color-active: #ff0000;
+  --heart-cross-color-active: #ff0000;
+}
+
+:root.theme-dark {
+  --main-font: "Inter-Variable";
+  --main-font-weight-bold: 785;
+  --main-font-weight: 465;
+  --additional-font: "PressStart2P";
+  --text-color: #00CC14;
+  --button-text-color: #00CC14;
+  --border-color: #00CC14;
+  --background-color: #000;
+  --background-image: url(../images/background-dark.png);
+  --icon-main-color: #00CC14;
+  --icon-color-transparent: rgb(0 204 20 / 0%);
+  --theme-hover-color: rgb(0 204 20 / 60%);
+  --heart-contour-color: #00CC14;
+  --heart-cross-color: #fff;
+  --heart-cross-color-transperent: rgb(0 0 0 / 0%);
+  --heart-main-color: #ff0000;
+  --heart-main-color-transperent: rgb(0 0 0 / 0%);
+  --heart-main-color-hover: #00CC14;
+  --heart-cross-color-hover: #00CC14;
+  --heart-main-color-active: #ff0000;
+  --heart-cross-color-active: #ff0000;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-font: "Inter-Variable";
+    --main-font-weight-bold: 700;
+    --main-font-weight: 400;
+    --additional-font: "PressStart2P";
+    --text-color: #000;
+    --button-text-color: #fff;
+    --border-color: #000;
+    --background-color: #fff;
+    --background-image: url(../images/background-light.png);
+    --theme-hover-color: rgb(0 0 0 / 60%);
+    --heart-contour-color: #000;
+    --heart-cross-color: #fff;
+    --heart-cross-color-transperent: rgb(0 0 0 / 0%);
+    --heart-main-color: #ff0000;
+    --heart-main-color-transperent: rgb(0 0 0 / 0%);
+    --heart-main-color-hover: #000;
+    --heart-cross-color-hover: #000;
+    --heart-main-color-active: #ff0000;
+    --heart-cross-color-active: #ff0000;
+  }
+}
