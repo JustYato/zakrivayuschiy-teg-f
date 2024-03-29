@@ -418,19 +418,19 @@
 }
 
 .filter-saturate {
-  filter: saturate(200%);
+  filter: saturate(300%);
 }
 
 .filter-bright {
-  filter: brightness(110%);
+  filter: brightness(140%);
 }
 
 .filter-multiple {
-  filter: brightness(120%) saturate(150%);
+  filter: brightness(130%) saturate(200%);
 }
 
 .filter-invert {
-  filter: invert(0.5);
+  filter: invert(1);
 }
 
 .filter-blur {
