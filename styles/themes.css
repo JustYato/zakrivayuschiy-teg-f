@@ -39,11 +39,7 @@
     rgb(211 211 211 / 0%) 3px,
     rgb(211 211 211 / 0%) 4px
   );
-  --gradient-third: linear-gradient(
-  to bottom,
-  #e7e7e7,
-  #1a1a1a
-  );
+  --gradient-third: linear-gradient(to bottom, #e7e7e7, #1a1a1a);
 }
 
 :root.theme-dark {
@@ -51,20 +47,20 @@
   --main-font-weight-bold: 785;
   --main-font-weight: 465;
   --additional-font: "PressStart2P";
-  --text-color: #00CC14;
-  --button-text-color: #00CC14;
-  --border-color: #00CC14;
+  --text-color: #00cc14;
+  --button-text-color: #00cc14;
+  --border-color: #00cc14;
   --background-color: #000;
-  --icon-main-color: #00CC14;
+  --icon-main-color: #00cc14;
   --icon-color-transparent: rgb(0 204 20 / 0%);
   --theme-hover-color: rgb(0 204 20 / 60%);
-  --heart-contour-color: #00CC14;
+  --heart-contour-color: #00cc14;
   --heart-cross-color: #fff;
   --heart-cross-color-transperent: rgb(0 0 0 / 0%);
   --heart-main-color: #ff0000;
   --heart-main-color-transperent: rgb(0 0 0 / 0%);
-  --heart-main-color-hover: #00CC14;
-  --heart-cross-color-hover: #00CC14;
+  --heart-main-color-hover: #00cc14;
+  --heart-cross-color-hover: #00cc14;
   --heart-main-color-active: #ff0000;
   --heart-cross-color-active: #ff0000;
   --gradient-first: repeating-linear-gradient(
@@ -83,11 +79,7 @@
     rgb(0 0 0 / 0%) 3px,
     rgb(0 0 0 / 0%) 4px
   );
-  --gradient-third: linear-gradient(
-  to bottom,
-  #007f0c,
-  #004306
-  );
+  --gradient-third: linear-gradient(to bottom, #007f0c, #004306);
 }
 
 @media (prefers-color-scheme: light) {
@@ -126,10 +118,48 @@
       rgb(211 211 211 / 0%) 3px,
       rgb(211 211 211 / 0%) 4px
     );
-    --gradient-third: linear-gradient(
-    to bottom,
-    #e7e7e7,
-    #1a1a1a
+    --gradient-third: linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-font: "Inter-Variable";
+    --main-font-weight-bold: 785;
+    --main-font-weight: 465;
+    --additional-font: "PressStart2P";
+    --text-color: #00cc14;
+    --button-text-color: #00cc14;
+    --border-color: #00cc14;
+    --background-color: #000;
+    --icon-main-color: #00cc14;
+    --icon-color-transparent: rgb(0 204 20 / 0%);
+    --theme-hover-color: rgb(0 204 20 / 60%);
+    --heart-contour-color: #00cc14;
+    --heart-cross-color: #fff;
+    --heart-cross-color-transperent: rgb(0 0 0 / 0%);
+    --heart-main-color: #ff0000;
+    --heart-main-color-transperent: rgb(0 0 0 / 0%);
+    --heart-main-color-hover: #00cc14;
+    --heart-cross-color-hover: #00cc14;
+    --heart-main-color-active: #ff0000;
+    --heart-cross-color-active: #ff0000;
+    --gradient-first: repeating-linear-gradient(
+      to right,
+      rgb(0 0 0 / 0%) 0,
+      rgb(0 0 0) 1px,
+      rgb(0 0 0) 2px,
+      rgb(0 0 0 / 0%) 3px,
+      rgb(0 0 0 / 0%) 4px
     );
+    --gradient-second: repeating-linear-gradient(
+      to bottom,
+      rgb(0 0 0 / 0%) 0,
+      rgb(0 0 0) 1px,
+      rgb(0 0 0) 2px,
+      rgb(0 0 0 / 0%) 3px,
+      rgb(0 0 0 / 0%) 4px
+    );
+    --gradient-third: linear-gradient(to bottom, #007f0c, #004306);
   }
 }
