@@ -8,7 +8,6 @@
   --button-text-color: #fff;
   --border-color: #000;
   --background-color: #fff;
-  --background-image: url(../images/background-light.png);
   --theme-hover-color: rgb(0 0 0 / 60%);
   --heart-contour-color: #000;
   --heart-cross-color: #fff;
@@ -19,4 +18,21 @@
   --heart-cross-color-hover: #000;
   --heart-main-color-active: #ff0000;
   --heart-cross-color-active: #ff0000;
+  --gradient-first: repeating-linear-gradient(
+    to right,
+    rgb(211 211 211 / 0%) 0,
+    rgb(211 211 211) 1px,
+    rgb(211 211 211) 2px,
+    rgb(211 211 211 / 0%) 3px,
+    rgb(211 211 211 / 0%) 4px
+  );
+  --gradient-second: repeating-linear-gradient(
+    to bottom,
+    rgb(211 211 211 / 0%) 0,
+    rgb(211 211 211) 1px,
+    rgb(211 211 211) 2px,
+    rgb(211 211 211 / 0%) 3px,
+    rgb(211 211 211 / 0%) 4px
+  );
+  --gradient-third: linear-gradient(to bottom, #e7e7e7, #1a1a1a);
 }

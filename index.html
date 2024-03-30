@@ -7,6 +7,7 @@
     <title>Закрывающий тег</title>
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon-mobile.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -18,10 +19,8 @@
 
   <body class="page">
     <header class="header">
-      <h1 class="header__title">
-        <span class="header__title-top">&lt;/html&gt;</span>
-        закрывающий тег
-      </h1>
+      <a class="header__title-logo" aria-hidden="true">&lt;/html&gt;</a>
+      <h1 class="header__title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -72,14 +71,14 @@
           </p>
         </div>
         <div class="card__button">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
-              height="36"
-              viewBox="0 0 39 36"
+              height="35"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               class="like-icon"
+              aria-hidden="true"
             >
               <g clip-path="url(#clip0_4039_768)" class="heart">
                 <path
@@ -90,27 +89,25 @@
                 <path
                   d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
                   fill="#FF0000"
-                  class="main"
+                  class="main-body"
                 />
                 <path
                   d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
                   fill="white"
-                  class="cross"
+                  class="core"
                 />
                 <path
                   d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
                   fill="#FF0000"
-                  class="particles"
+                  class="sparks"
                 />
               </g>
-              <defs>
-                <clipPath id="clip0_4039_768">
-                  <rect width="39" height="36" fill="white" />
-                </clipPath>
-              </defs>
+              <clipPath>
+                <rect width="39" height="36" fill="white" />
+              </clipPath>
             </svg>
           </button>
-          <button class="card__like-button button-subclass">
+          <button class="card__like-button button-subclass" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -121,7 +118,7 @@
           <span class="card__image-text">&lt;/HTML&gt;</span>
           <img
             class="image filter-bright"
-            src="images/I am a blank slate.png"
+            src="images/I_am_a_blank_slate.png"
             alt="Серый котенок лежит на спинке на двух клавиатурах."
           />
         </div>
@@ -139,14 +136,14 @@
           </p>
         </div>
         <div class="card__button">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
-              height="36"
-              viewBox="0 0 39 36"
+              height="35"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               class="like-icon"
+              aria-hidden="true"
             >
               <g clip-path="url(#clip0_4039_768)" class="heart">
                 <path
@@ -157,27 +154,25 @@
                 <path
                   d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
                   fill="#FF0000"
-                  class="main"
+                  class="main-body"
                 />
                 <path
                   d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
                   fill="white"
-                  class="cross"
+                  class="core"
                 />
                 <path
                   d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
                   fill="#FF0000"
-                  class="particles"
+                  class="sparks"
                 />
               </g>
-              <defs>
-                <clipPath id="clip0_4039_768">
-                  <rect width="39" height="36" fill="white" />
-                </clipPath>
-              </defs>
+              <clipPath>
+                <rect width="39" height="36" fill="white" />
+              </clipPath>
             </svg>
           </button>
-          <button class="card__like-button button-subclass">
+          <button class="card__like-button button-subclass" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -188,7 +183,7 @@
           <span class="card__image-text">&lt;CSS&gt;</span>
           <img
             class="image filter-invert"
-            src="images/And if it doesn't work out.png"
+            src="images/And_if_it_doesn't_work_out.png"
             alt="Бело-черный кот печатает сразу на двух ноутбуках."
           />
         </div>
@@ -204,14 +199,14 @@
           </p>
         </div>
         <div class="card__button">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
-              height="36"
-              viewBox="0 0 39 36"
+              height="35"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               class="like-icon"
+              aria-hidden="true"
             >
               <g clip-path="url(#clip0_4039_768)" class="heart">
                 <path
@@ -222,27 +217,25 @@
                 <path
                   d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
                   fill="#FF0000"
-                  class="main"
+                  class="main-body"
                 />
                 <path
                   d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
                   fill="white"
-                  class="cross"
+                  class="core"
                 />
                 <path
                   d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
                   fill="#FF0000"
-                  class="particles"
+                  class="sparks"
                 />
               </g>
-              <defs>
-                <clipPath id="clip0_4039_768">
-                  <rect width="39" height="36" fill="white" />
-                </clipPath>
-              </defs>
+              <clipPath>
+                <rect width="39" height="36" fill="white" />
+              </clipPath>
             </svg>
           </button>
-          <button class="card__like-button button-subclass">
+          <button class="card__like-button button-subclass" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -253,7 +246,7 @@
           <span class="card__image-text">&lt;desigions&gt;</span>
           <img
             class="image filter-blur"
-            src="images/The pursuit of the ideal.png"
+            src="images/The_pursuit_of_the_ideal.png"
             alt="Рыжий котенок спит на клавиатуре."
           />
         </div>
@@ -270,14 +263,14 @@
           </p>
         </div>
         <div class="card__button">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
-              height="36"
-              viewBox="0 0 39 36"
+              height="35"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               class="like-icon"
+              aria-hidden="true"
             >
               <g clip-path="url(#clip0_4039_768)" class="heart">
                 <path
@@ -288,27 +281,25 @@
                 <path
                   d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
                   fill="#FF0000"
-                  class="main"
+                  class="main-body"
                 />
                 <path
                   d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
                   fill="white"
-                  class="cross"
+                  class="core"
                 />
                 <path
                   d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
                   fill="#FF0000"
-                  class="particles"
+                  class="sparks"
                 />
               </g>
-              <defs>
-                <clipPath id="clip0_4039_768">
-                  <rect width="39" height="36" fill="white" />
-                </clipPath>
-              </defs>
+              <clipPath>
+                <rect width="39" height="36" fill="white" />
+              </clipPath>
             </svg>
           </button>
-          <button class="card__like-button button-subclass">
+          <button class="card__like-button button-subclass" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -319,7 +310,7 @@
           <span class="card__image-text">&lt;care&gt;</span>
           <img
             class="image filter-multiple"
-            src="images/About those who are nearby.png"
+            src="images/About_those_who_are_nearby.png"
             alt="Кошка черепахового окраса помогает работать над практикой."
           />
         </div>
@@ -335,14 +326,14 @@
           <p class="card__text">Учеба даётся легче, когда тебя поддерживают.</p>
         </div>
         <div class="card__button">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
-              height="36"
-              viewBox="0 0 39 36"
+              height="35"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               class="like-icon"
+              aria-hidden="true"
             >
               <g clip-path="url(#clip0_4039_768)" class="heart">
                 <path
@@ -353,27 +344,25 @@
                 <path
                   d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
                   fill="#FF0000"
-                  class="main"
+                  class="main-body"
                 />
                 <path
                   d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
                   fill="white"
-                  class="cross"
+                  class="core"
                 />
                 <path
                   d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
                   fill="#FF0000"
-                  class="particles"
+                  class="sparks"
                 />
               </g>
-              <defs>
-                <clipPath id="clip0_4039_768">
-                  <rect width="39" height="36" fill="white" />
-                </clipPath>
-              </defs>
+              <clipPath>
+                <rect width="39" height="36" fill="white" />
+              </clipPath>
             </svg>
           </button>
-          <button class="card__like-button button-subclass">
+          <button class="card__like-button button-subclass" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -384,7 +373,7 @@
           <span class="card__image-text">&lt;support&gt;</span>
           <img
             class="image"
-            src="images/Workaround strategies.png"
+            src="images/Workaround_strategies.png"
             alt="Бело-коричневый кот злится."
           />
         </div>
@@ -395,19 +384,19 @@
             время посмотреть на задачу под другим углом.
           </p>
           <p class="card__text">
-            Когда ничего не получается и ничего не приходит в голову,
-            лучше всего сделать перерыв и посмотреть на задачу свежим взглядом.
+            Когда ничего не получается и ничего не приходит в голову, лучше
+            всего сделать перерыв и посмотреть на задачу свежим взглядом.
           </p>
         </div>
         <div class="card__button">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
-              height="36"
-              viewBox="0 0 39 36"
+              height="35"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               class="like-icon"
+              aria-hidden="true"
             >
               <g clip-path="url(#clip0_4039_768)" class="heart">
                 <path
@@ -418,27 +407,25 @@
                 <path
                   d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
                   fill="#FF0000"
-                  class="main"
+                  class="main-body"
                 />
                 <path
                   d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
                   fill="white"
-                  class="cross"
+                  class="core"
                 />
                 <path
                   d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
                   fill="#FF0000"
-                  class="particles"
+                  class="sparks"
                 />
               </g>
-              <defs>
-                <clipPath id="clip0_4039_768">
-                  <rect width="39" height="36" fill="white" />
-                </clipPath>
-              </defs>
+              <clipPath>
+                <rect width="39" height="36" fill="white" />
+              </clipPath>
             </svg>
           </button>
-          <button class="card__like-button button-subclass">
+          <button class="card__like-button button-subclass" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -449,7 +436,7 @@
           <span class="card__image-text">&lt;lifes-style: none;&gt;</span>
           <img
             class="image filter-gray"
-            src="images/When you give up.png"
+            src="images/When_you_give_up.png"
             alt="Белый кот грызет провода и плачет."
           />
         </div>
@@ -462,18 +449,19 @@
             черпали.
           </p>
           <p class="card__text">
-            В таких ситуация главное правильно расставить приоритеты и распределить время.
+            В таких ситуация главное правильно расставить приоритеты и
+            распределить время.
           </p>
         </div>
         <div class="card__button">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
-              height="36"
-              viewBox="0 0 39 36"
+              height="35"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               class="like-icon"
+              aria-hidden="true"
             >
               <g clip-path="url(#clip0_4039_768)" class="heart">
                 <path
@@ -484,27 +472,25 @@
                 <path
                   d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
                   fill="#FF0000"
-                  class="main"
+                  class="main-body"
                 />
                 <path
                   d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
                   fill="white"
-                  class="cross"
+                  class="core"
                 />
                 <path
                   d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
                   fill="#FF0000"
-                  class="particles"
+                  class="sparks"
                 />
               </g>
-              <defs>
-                <clipPath id="clip0_4039_768">
-                  <rect width="39" height="36" fill="white" />
-                </clipPath>
-              </defs>
+              <clipPath>
+                <rect width="39" height="36" fill="white" />
+              </clipPath>
             </svg>
           </button>
-          <button class="card__like-button button-subclass">
+          <button class="card__like-button button-subclass" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -515,7 +501,7 @@
           <span class="card__image-text">&lt;expirience&gt;</span>
           <img
             class="image filter-saturate"
-            src="images/I'am here now.png"
+            src="images/I'am_here_now.png"
             alt="Бежевый кот лежит за клавиатурой."
           />
         </div>
@@ -529,18 +515,18 @@
             и есть результат.
           </p>
           <p class="card__text">
-            Главное идти к намеченной цели и не сворачивать.  
+            Главное идти к намеченной цели и не сворачивать.
           </p>
         </div>
         <div class="card__button">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
-              height="36"
-              viewBox="0 0 39 36"
+              height="35"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               class="like-icon"
+              aria-hidden="true"
             >
               <g clip-path="url(#clip0_4039_768)" class="heart">
                 <path
@@ -551,100 +537,47 @@
                 <path
                   d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
                   fill="#FF0000"
-                  class="main"
+                  class="main-body"
                 />
                 <path
                   d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
                   fill="white"
-                  class="cross"
+                  class="core"
                 />
                 <path
                   d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
                   fill="#FF0000"
-                  class="particles"
+                  class="sparks"
                 />
               </g>
-              <defs>
-                <clipPath id="clip0_4039_768">
-                  <rect width="39" height="36" fill="white" />
-                </clipPath>
-              </defs>
+              <clipPath>
+                <rect width="39" height="36" fill="white" />
+              </clipPath>
             </svg>
           </button>
-          <button class="card__like-button button-subclass">
+          <button class="card__like-button button-subclass" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
       </article>
+      <div class="save-button">
+        <button
+          class="save-button__button button-subclass"
+          type="button"
+          onclick="window['dialog'].showModal()"
+          aria-controls="dialog"
+        >
+          <svg class="save-button__image" viewBox="0 0 39 39">
+            <use href="svg/floppy.svg#floppy" />
+          </svg>
+          <span class="button__text">Сохранить на память</span>
+        </button>
+      </div>
     </main>
-    <footer class="footer">
-      <button
-        class="footer__button button-subclass"
-        type="button"
-        onclick="window['dialog'].showModal()"
-        aria-controls="dialog"
-      >
-        <svg class="footer__button-image">
-          <use
-            xlink:href="#floppy"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          ></use>
-          <symbol
-            fill="currentColor"
-            id="floppy"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill="currentColor"
-              d="M0 0h1.615v1.615H0zm0 1.615h1.615V3.23H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615V21H0zM17.77 0v1.615h-1.616V0zm-1.616 0v1.615h-1.615V0zm-1.615 0v1.615h-1.615V0zm-1.616 0v1.615h-1.615V0zm-1.615 0v1.615H9.693V0zM9.692 0v1.615H8.077V0zM8.077 0v1.615H6.462V0zM6.462 0v1.615H4.847V0zM4.846 0v1.615H3.231V0zM3.23 0v1.615H1.617V0zm16.155 1.616V3.23H17.77V1.616zM4.846 3.23v1.616H3.231V3.23zm0-1.615V3.23H3.231V1.615zm0 3.231v1.615H3.231V4.846zm11.308-1.615v1.615h-1.615V3.231zm0-1.616V3.23h-1.615V1.615zm0 3.231v1.615h-1.615V4.846zM12.923 3.23v1.616h-1.615V3.23zm0-1.615V3.23h-1.615V1.615zm0 3.231v1.615h-1.615V4.846zm3.231 1.616v1.615H14.54V6.462zm-1.615 0v1.615h-1.615V6.462zm-1.615-.001v1.615h-1.615V6.461zm-1.616.001v1.615H9.693V6.462zm-1.615-.001v1.615H8.078V6.461zm-1.616.001v1.615H6.462V6.462zm-1.615 0v1.615H4.847V6.462zm-1.615-.001v1.615H3.232V6.461zm12.922 4.846v1.615h-1.615v-1.615zm-1.616.001v1.615h-1.615v-1.615z"
-            />
-            <path
-              fill="currentColor"
-              d="M14.538 11.308v1.615h-1.615v-1.615zm-1.615-.001v1.615h-1.615v-1.615zm-1.616.001v1.615H9.692v-1.615zm-1.615-.001v1.615H8.077v-1.615zm-1.616.001v1.615H6.461v-1.615zm-1.615 0v1.615H4.846v-1.615zm-1.615-.001v1.615H3.23v-1.615zm12.924 1.616v1.615h-1.616v-1.615zm-12.924 0v1.615H3.231v-1.615z"
-            />
-            <path
-              fill="currentColor"
-              d="M17.769 14.538v1.615h-1.615v-1.615zm-12.923 0v1.615H3.23v-1.615zm12.924 1.615v1.615h-1.616v-1.615zm-12.924.001v1.615H3.231v-1.615zm0 1.615v1.615H3.231v-1.615zm12.924 0v1.615h-1.616v-1.615zm1.614 1.616V21H17.77v-1.615zm-1.614-.001V21h-1.616v-1.615zm-1.616.001V21h-1.615v-1.615zm-1.616 0V21h-1.615v-1.615zm-1.615 0V21h-1.615v-1.615zm-1.616 0V21H9.692v-1.615zm-1.615 0V21H8.077v-1.615zm-1.615 0V21H6.462v-1.615zm-1.616 0V21H4.846v-1.615zm-1.615 0V21H3.231v-1.615zm-1.616 0V21H1.617v-1.615zM21 21h-1.615v-1.615H21zm0-1.615h-1.615V17.77H21zm0-1.616h-1.615v-1.615H21zm0-1.615h-1.615v-1.615H21zm0-1.616h-1.615v-1.615H21zm0-1.615h-1.615v-1.615H21zm0-1.616h-1.615V9.692H21z"
-            />
-            <path
-              fill="currentColor"
-              d="M21 9.693h-1.615V8.078H21zm0-1.616h-1.615V6.462H21zm0-1.615h-1.615V4.847H21zm0-1.616h-1.615V3.231H21z"
-            />
-          </symbol>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-    </footer>
     <dialog class="dialog" id="dialog">
       <form class="dialog__form" method="dialog">
-        <svg class="dialog__image" viewBox="0 0 20 20">
-          <use
-            class="abc"
-            xlink:href="#floppy"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          ></use>
-          <symbol
-            fill="currentColor"
-            id="floppy"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill="currentColor"
-              d="M0 0h1.615v1.615H0zm0 1.615h1.615V3.23H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615V21H0zM17.77 0v1.615h-1.616V0zm-1.616 0v1.615h-1.615V0zm-1.615 0v1.615h-1.615V0zm-1.616 0v1.615h-1.615V0zm-1.615 0v1.615H9.693V0zM9.692 0v1.615H8.077V0zM8.077 0v1.615H6.462V0zM6.462 0v1.615H4.847V0zM4.846 0v1.615H3.231V0zM3.23 0v1.615H1.617V0zm16.155 1.616V3.23H17.77V1.616zM4.846 3.23v1.616H3.231V3.23zm0-1.615V3.23H3.231V1.615zm0 3.231v1.615H3.231V4.846zm11.308-1.615v1.615h-1.615V3.231zm0-1.616V3.23h-1.615V1.615zm0 3.231v1.615h-1.615V4.846zM12.923 3.23v1.616h-1.615V3.23zm0-1.615V3.23h-1.615V1.615zm0 3.231v1.615h-1.615V4.846zm3.231 1.616v1.615H14.54V6.462zm-1.615 0v1.615h-1.615V6.462zm-1.615-.001v1.615h-1.615V6.461zm-1.616.001v1.615H9.693V6.462zm-1.615-.001v1.615H8.078V6.461zm-1.616.001v1.615H6.462V6.462zm-1.615 0v1.615H4.847V6.462zm-1.615-.001v1.615H3.232V6.461zm12.922 4.846v1.615h-1.615v-1.615zm-1.616.001v1.615h-1.615v-1.615z"
-            />
-            <path
-              fill="currentColor"
-              d="M14.538 11.308v1.615h-1.615v-1.615zm-1.615-.001v1.615h-1.615v-1.615zm-1.616.001v1.615H9.692v-1.615zm-1.615-.001v1.615H8.077v-1.615zm-1.616.001v1.615H6.461v-1.615zm-1.615 0v1.615H4.846v-1.615zm-1.615-.001v1.615H3.23v-1.615zm12.924 1.616v1.615h-1.616v-1.615zm-12.924 0v1.615H3.231v-1.615z"
-            />
-            <path
-              fill="currentColor"
-              d="M17.769 14.538v1.615h-1.615v-1.615zm-12.923 0v1.615H3.23v-1.615zm12.924 1.615v1.615h-1.616v-1.615zm-12.924.001v1.615H3.231v-1.615zm0 1.615v1.615H3.231v-1.615zm12.924 0v1.615h-1.616v-1.615zm1.614 1.616V21H17.77v-1.615zm-1.614-.001V21h-1.616v-1.615zm-1.616.001V21h-1.615v-1.615zm-1.616 0V21h-1.615v-1.615zm-1.615 0V21h-1.615v-1.615zm-1.616 0V21H9.692v-1.615zm-1.615 0V21H8.077v-1.615zm-1.615 0V21H6.462v-1.615zm-1.616 0V21H4.846v-1.615zm-1.615 0V21H3.231v-1.615zm-1.616 0V21H1.617v-1.615zM21 21h-1.615v-1.615H21zm0-1.615h-1.615V17.77H21zm0-1.616h-1.615v-1.615H21zm0-1.615h-1.615v-1.615H21zm0-1.616h-1.615v-1.615H21zm0-1.615h-1.615v-1.615H21zm0-1.616h-1.615V9.692H21z"
-            />
-            <path
-              fill="currentColor"
-              d="M21 9.693h-1.615V8.078H21zm0-1.616h-1.615V6.462H21zm0-1.615h-1.615V4.847H21zm0-1.616h-1.615V3.231H21z"
-            />
-          </symbol>
+        <svg class="dialog__image" viewBox="0 0 39 39">
+          <use href="svg/floppy.svg#floppy" />
         </svg>
         <p>Вставьте дискету, чтобы продолжить</p>
         <button class="dialog__button button-subclass" type="submit">
