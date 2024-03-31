@@ -15,31 +15,31 @@
   --background-color: #fff;
   --theme-hover-color: rgb(0 0 0 / 60%);
   --heart-contour-color: #000;
-  --heart-cross-color: #fff;
-  --heart-cross-color-transperent: rgb(0 0 0 / 0%);
+  --heart-core-color: #fff;
+  --heart-core-color-transperent: rgb(0 0 0 / 0%);
   --heart-main-color: #ff0000;
   --heart-main-color-transperent: rgb(0 0 0 / 0%);
   --heart-main-color-hover: #000;
-  --heart-cross-color-hover: #000;
+  --heart-core-color-hover: #000;
   --heart-main-color-active: #ff0000;
-  --heart-cross-color-active: #ff0000;
+  --heart-core-color-active: #ff0000;
   --gradient-first: repeating-linear-gradient(
     to right,
-    rgb(211 211 211 / 0%) 0,
-    rgb(211 211 211) 1px,
-    rgb(211 211 211) 2px,
-    rgb(211 211 211 / 0%) 3px,
+    rgb(211 211 211 / 0%) 0px,
+    #d3d3d3 1px,
+    #d3d3d3 2px,
+    rgb(211 211 211 / 0%) 2px,
     rgb(211 211 211 / 0%) 4px
   );
   --gradient-second: repeating-linear-gradient(
     to bottom,
-    rgb(211 211 211 / 0%) 0,
-    rgb(211 211 211) 1px,
-    rgb(211 211 211) 2px,
+    rgb(211 211 211 / 0%) 0px,
+    #d3d3d3 1px,
+    #d3d3d3 2px,
     rgb(211 211 211 / 0%) 3px,
     rgb(211 211 211 / 0%) 4px
   );
-  --gradient-third: linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+  --gradient-third: linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
 }
 
 :root.theme-dark {
@@ -55,31 +55,31 @@
   --icon-color-transparent: rgb(0 204 20 / 0%);
   --theme-hover-color: rgb(0 204 20 / 60%);
   --heart-contour-color: #00cc14;
-  --heart-cross-color: #fff;
-  --heart-cross-color-transperent: rgb(0 0 0 / 0%);
+  --heart-core-color: #fff;
+  --heart-core-color-transperent: rgb(0 0 0 / 0%);
   --heart-main-color: #ff0000;
   --heart-main-color-transperent: rgb(0 0 0 / 0%);
   --heart-main-color-hover: #00cc14;
-  --heart-cross-color-hover: #00cc14;
+  --heart-core-color-hover: #00cc14;
   --heart-main-color-active: #ff0000;
-  --heart-cross-color-active: #ff0000;
+  --heart-core-color-active: #ff0000;
   --gradient-first: repeating-linear-gradient(
     to right,
-    rgb(0 0 0 / 0%) 0,
-    rgb(0 0 0) 1px,
-    rgb(0 0 0) 2px,
-    rgb(0 0 0 / 0%) 3px,
+    rgb(0 0 0 / 0%) 0px,
+    #000 1px,
+    #000 2px,
+    rgb(0 0 0 / 0%) 2px,
     rgb(0 0 0 / 0%) 4px
   );
   --gradient-second: repeating-linear-gradient(
     to bottom,
-    rgb(0 0 0 / 0%) 0,
-    rgb(0 0 0) 1px,
-    rgb(0 0 0) 2px,
+    rgb(0 0 0 / 0%) 0px,
+    #000 1px,
+    #000 2px,
     rgb(0 0 0 / 0%) 3px,
     rgb(0 0 0 / 0%) 4px
   );
-  --gradient-third: linear-gradient(to bottom, #007f0c, #004306);
+  --gradient-third: linear-gradient(to bottom, #007f0c 0.01%, #004306);
 }
 
 @media (prefers-color-scheme: light) {
@@ -94,31 +94,31 @@
     --background-color: #fff;
     --theme-hover-color: rgb(0 0 0 / 60%);
     --heart-contour-color: #000;
-    --heart-cross-color: #fff;
-    --heart-cross-color-transperent: rgb(0 0 0 / 0%);
+    --heart-core-color: #fff;
+    --heart-core-color-transperent: rgb(0 0 0 / 0%);
     --heart-main-color: #ff0000;
     --heart-main-color-transperent: rgb(0 0 0 / 0%);
     --heart-main-color-hover: #000;
-    --heart-cross-color-hover: #000;
+    --heart-core-color-hover: #000;
     --heart-main-color-active: #ff0000;
-    --heart-cross-color-active: #ff0000;
+    --heart-core-color-active: #ff0000;
     --gradient-first: repeating-linear-gradient(
       to right,
-      rgb(211 211 211 / 0%) 0,
-      rgb(211 211 211) 1px,
-      rgb(211 211 211) 2px,
-      rgb(211 211 211 / 0%) 3px,
+      rgb(211 211 211 / 0%) 0px,
+      #d3d3d3 1px,
+      #d3d3d3 2px,
+      rgb(211 211 211 / 0%) 2px,
       rgb(211 211 211 / 0%) 4px
     );
     --gradient-second: repeating-linear-gradient(
       to bottom,
-      rgb(211 211 211 / 0%) 0,
-      rgb(211 211 211) 1px,
-      rgb(211 211 211) 2px,
+      rgb(211 211 211 / 0%) 0px,
+      #d3d3d3 1px,
+      #d3d3d3 2px,
       rgb(211 211 211 / 0%) 3px,
       rgb(211 211 211 / 0%) 4px
     );
-    --gradient-third: linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+    --gradient-third: linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
   }
 }
 
@@ -136,30 +136,30 @@
     --icon-color-transparent: rgb(0 204 20 / 0%);
     --theme-hover-color: rgb(0 204 20 / 60%);
     --heart-contour-color: #00cc14;
-    --heart-cross-color: #fff;
-    --heart-cross-color-transperent: rgb(0 0 0 / 0%);
+    --heart-core-color: #fff;
+    --heart-core-color-transperent: rgb(0 0 0 / 0%);
     --heart-main-color: #ff0000;
     --heart-main-color-transperent: rgb(0 0 0 / 0%);
     --heart-main-color-hover: #00cc14;
-    --heart-cross-color-hover: #00cc14;
+    --heart-core-color-hover: #00cc14;
     --heart-main-color-active: #ff0000;
-    --heart-cross-color-active: #ff0000;
+    --heart-core-color-active: #ff0000;
     --gradient-first: repeating-linear-gradient(
       to right,
-      rgb(0 0 0 / 0%) 0,
-      rgb(0 0 0) 1px,
-      rgb(0 0 0) 2px,
-      rgb(0 0 0 / 0%) 3px,
+      rgb(0 0 0 / 0%) 0px,
+      #000 1px,
+      #000 2px,
+      rgb(0 0 0 / 0%) 2px,
       rgb(0 0 0 / 0%) 4px
     );
     --gradient-second: repeating-linear-gradient(
       to bottom,
-      rgb(0 0 0 / 0%) 0,
-      rgb(0 0 0) 1px,
-      rgb(0 0 0) 2px,
+      rgb(0 0 0 / 0%) 0px,
+      #000 1px,
+      #000 2px,
       rgb(0 0 0 / 0%) 3px,
       rgb(0 0 0 / 0%) 4px
     );
-    --gradient-third: linear-gradient(to bottom, #007f0c, #004306);
+    --gradient-third: linear-gradient(to bottom, #007f0c 0.01%, #004306);
   }
 }
