@@ -105,6 +105,8 @@
 .theme-menu__button:disabled::before {
   content: "▶";
   position: absolute;
+  top: 0;
+  left: 0;
   color: var(--theme-hover-color);
   animation: selection 0.5s infinite ease-in-out alternate;
 }
@@ -157,6 +159,7 @@
 
 .image {
   display: block;
+  object-position: center;
   object-fit: cover;
   inline-size: 100%;
 }
@@ -182,11 +185,11 @@
 }
 
 .card__icon-button {
+  margin: 2px 0;
   position: relative;
   display: flex;
   justify-items: center;
   align-items: center;
-  margin-top: 2px;
   border: none;
   background-color: transparent;
   transition: outline 0.3s;
@@ -205,7 +208,7 @@
 
 .contour {
   fill: var(--heart-contour-color);
-  transition: fill 0.1s;
+  transition: fill 0.1s linear;
 }
 
 .sparks {
@@ -222,7 +225,7 @@
 
   .main-body {
     fill: var(--heart-main-color);
-    transition: fill 0.3s 0.6s linear;
+    transition: fill 0.3s 0.5s linear;
   }
 
   .contour {
@@ -249,7 +252,22 @@
 
     .contour {
       fill: var(--heart-contour-color);
-      transition: fill 0.3s 0.5s linear;
+    }
+  }
+}
+
+.card__icon-button:has(.like-icon.is-liked) {
+  .like-icon {
+    .core {
+      fill: var(--heart-main-color);
+    }
+
+    .main-body {
+      fill: var(--heart-main-color);
+    }
+
+    .contour {
+      fill: var(--heart-main-color);
     }
   }
 }

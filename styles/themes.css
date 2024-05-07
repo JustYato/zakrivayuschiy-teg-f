@@ -28,7 +28,7 @@
     rgb(211 211 211 / 0%) 0px,
     #d3d3d3 1px,
     #d3d3d3 2px,
-    rgb(211 211 211 / 0%) 2px,
+    rgb(211 211 211 / 0%) 3px,
     rgb(211 211 211 / 0%) 4px
   );
   --gradient-second: repeating-linear-gradient(
@@ -68,7 +68,7 @@
     rgb(0 0 0 / 0%) 0px,
     #000 1px,
     #000 2px,
-    rgb(0 0 0 / 0%) 2px,
+    rgb(0 0 0 / 0%) 3px,
     rgb(0 0 0 / 0%) 4px
   );
   --gradient-second: repeating-linear-gradient(
@@ -107,7 +107,7 @@
       rgb(211 211 211 / 0%) 0px,
       #d3d3d3 1px,
       #d3d3d3 2px,
-      rgb(211 211 211 / 0%) 2px,
+      rgb(211 211 211 / 0%) 3px,
       rgb(211 211 211 / 0%) 4px
     );
     --gradient-second: repeating-linear-gradient(
@@ -149,7 +149,7 @@
       rgb(0 0 0 / 0%) 0px,
       #000 1px,
       #000 2px,
-      rgb(0 0 0 / 0%) 2px,
+      rgb(0 0 0 / 0%) 3px,
       rgb(0 0 0 / 0%) 4px
     );
     --gradient-second: repeating-linear-gradient(
