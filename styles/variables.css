@@ -18,25 +18,7 @@
   --heart-core-color-hover: #000;
   --heart-main-color-active: #ff0000;
   --heart-core-color-active: #ff0000;
-  --gradient-first: repeating-linear-gradient(
-    to right,
-    rgb(211 211 211 / 0%) 0px,
-    #d3d3d3 1px,
-    #d3d3d3 2px,
-    rgb(211 211 211 / 0%) 3px,
-    rgb(211 211 211 / 0%) 4px
-  );
-  --gradient-second: repeating-linear-gradient(
-    to bottom,
-    rgb(211 211 211 / 0%) 0px,
-    #d3d3d3 1px,
-    #d3d3d3 2px,
-    rgb(211 211 211 / 0%) 3px,
-    rgb(211 211 211 / 0%) 4px
-  );
-  --gradient-third: linear-gradient(
-    to bottom,
-    #e7e7e7 0.01%,
-    #1a1a1a
-  );
+  --gradient-first: repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px);
+  --gradient-second: repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px);
+  --gradient-third: linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 }

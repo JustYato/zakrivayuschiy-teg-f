@@ -225,12 +225,12 @@
 
   .main-body {
     fill: var(--heart-main-color);
-    transition: fill 0.3s 0.5s linear;
+    transition: fill 0.3s 0.05s linear;
   }
 
   .contour {
     fill: var(--heart-main-color);
-    transition: fill 0.3s 0.06s;
+    transition: fill 0.3s 0.06s linear;
   }
 
   .sparks {
@@ -247,7 +247,7 @@
 
     .main-body {
       fill: var(--heart-main-color-hover);
-      transition: fill 0.3s 0.5s linear;
+      transition: fill 0.3s 0.05s linear;
     }
 
     .contour {
